@@ -2,7 +2,7 @@
 
 ## What the Whiteboarding Experience is?
 
-The CAIP DREAM whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard Accelerators team, the Azure Architecture site, SEs and partners. 
+The CAIP whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard Accelerators team, the Azure Architecture site, SEs and partners. 
 
 During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
 
@@ -18,7 +18,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 | Pillar | Objective |
 |---|---|
-| Modernize with Confidence | Migrate the legacy SQL Server estate to Azure SQL Managed Instance while retaining compatibility, availability, and compliance controls. |
+| Modernize with Confidence | Migrate the legacy SQL Server estate to Azure SQL Database while retaining compatibility, availability, and compliance controls. |
 | Amplify Your Intelligence | Build a semantic, context-rich intelligence layer with Fabric IQ so manufacturing data speaks the language of the business. |
 | Ubiquitous Innovation | Enable teams to rapidly build and deploy governed multi-agent solutions in Microsoft Foundry. |
 
