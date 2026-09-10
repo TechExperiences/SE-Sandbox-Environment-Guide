@@ -10,7 +10,7 @@ This CAIP Technical Workshop-Roadshow helps participants solve a real-world phar
 
 The workshop is modular and connected. Each stage stands on its own and can be delivered independently but run in sequence they compound: the whiteboard output feeds the prototype, and the prototype is what makes an MVP or pilot conversation credible with a customer.
 
-   ![Step701](../Sandbox-Environment-Guides/Roadshow-Caldova/media/cd1.png)
+   ![Step701](../Roadshow-Caldova/media/cd1.png)
 
 Rapid prototyping is offered in three options. Tech sellers and partners should lead with Option A; Options B and C are used as needed. 
 
@@ -253,3 +253,4 @@ Challenge:
 Build a Microsoft Foundry multi-agent solution that analyzes the 7% capacity gap, evaluates internal capacity and qualified CMOs, and provides auditable COO-ready recommendations through an agentic loop.
 
 -->
+
