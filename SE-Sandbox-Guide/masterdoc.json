@@ -1,26 +1,26 @@
 [
   {
-    "Name": "Sandbox-Environment-for-Amplify-your-intelligence",
+    "Name": "Sandbox-Environment-Guide-for-SE",
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/Caldova-Production-Challenge.md",
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/SE-Sandbox-Environment-Guides/refs/heads/main/SE-Sandbox-Guide/Intro.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova01.md",
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/SE-Sandbox-Environment-Guide/refs/heads/main/SE-Sandbox-Guide/Guide01.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova02.md",
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/SE-Sandbox-Environment-Guides/refs/heads/main/SE-Sandbox-Guide/Guide02.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova03.md",
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/SE-Sandbox-Environment-Guides/refs/heads/main/SE-Sandbox-Guide/Guide03.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/Sandbox-Environments/refs/heads/main/Sandbox-Environment-Guides/Roadshow-Caldova/caldova04.md",
+        "RawFilePath": "https://raw.githubusercontent.com/TechExperiences/SE-Sandbox-Environment-Guides/refs/heads/main/SE-Sandbox-Guide/Guide04.md",
         "Order": 5
       }       
     ]  
