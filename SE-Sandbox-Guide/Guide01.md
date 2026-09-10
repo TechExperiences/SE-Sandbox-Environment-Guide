@@ -29,7 +29,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Navigate to the **Modernize with Confidence** section on the left navigation pane.
 
-   ![Step701](../Roadshow-Caldova/media/cd2.png)
+   ![Step701](../SE-Sandbox-Guide/media/cd2.png)
 
 1. Select **Modernize faster with Agentic AI (1)**,  
 
@@ -41,7 +41,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
    - Select **Cora (Preview) for Roadshows (5)**
 
-     ![Step701](../Roadshow-Caldova/media/cd3.png)   
+     ![Step701](../SE-Sandbox-Guide/media/cd3.png)   
 
 1. In Cora chat pane, copy and paste the following business problem statement to Cora. 
 
@@ -57,15 +57,15 @@ During business and technical envisioning, sellers collaborate with customers an
 
    - **Click** to proceed. 
 
-     ![Step701](../Roadshow-Caldova/media/cd4.png)   
+     ![Step701](../SE-Sandbox-Guide/media/cd4.png)   
 
 1. Review the recommended architecture and open the linked Whiteboard.
 
-   ![Step701](../Roadshow-Caldova/media/cd5.png)   
+   ![Step701](../SE-Sandbox-Guide/media/cd5.png)   
 
 1. Once *“Cloud & AI Platform Whiteboard Experience”* site opens, Click **Copy Whiteboard Template**. 
 
-   ![Step701](../Roadshow-Caldova/media/cd6.png) 
+   ![Step701](../SE-Sandbox-Guide/media/cd6.png) 
 
 1. This opens https://whiteboard.cloud.microsoft/ login with your @microsoft.com account. Copy Whiteboard Template action copies and creates new whiteboard in your account. Give it a minute to load, then zoom out to 1% zoom level. 
 
@@ -75,7 +75,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Discuss Notes from Business Envisioning session then current state architecture. 
 
-   ![Step701](../Roadshow-Caldova/media/cd7.png) 
+   ![Step701](../SE-Sandbox-Guide/media/cd7.png) 
 
 1. Modify selected parts of the architecture to create the `Future State Architecture`. 
 
@@ -83,7 +83,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
    - Once complete, take a screenshot of **Future State Architecture** for next section of the workshop. 
 
-   ![Step701](../Roadshow-Caldova/media/cd8.png) 
+   ![Step701](../SE-Sandbox-Guide/media/cd8.png) 
 
 
 ## This completes the Envisioning Session using Microsoft Whiteboarding.

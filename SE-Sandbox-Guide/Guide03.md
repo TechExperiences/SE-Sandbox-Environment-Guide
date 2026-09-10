@@ -35,47 +35,47 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on the **Visual Studio Code** from the VM desktop.
 
-   ![Step1](../Roadshow-Caldova/media/amp14.png)
+   ![Step1](../SE-Sandbox-Guide/media/amp14.png)
 
 1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
 
-   ![Step2](../Roadshow-Caldova/media/amp18.png)
+   ![Step2](../SE-Sandbox-Guide/media/amp18.png)
 
 1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** **(1)** in the input field, and click on **Sign in with your identity provider** to continue **(2)**.
 
    - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
 
-     ![Step3](../Roadshow-Caldova/media/amp19.png)
+     ![Step3](../SE-Sandbox-Guide/media/amp19.png)
 
 1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
 
-   ![Step4](../Roadshow-Caldova/media/amp20.png)
+   ![Step4](../SE-Sandbox-Guide/media/amp20.png)
 
 1. Click on **Accept**.
 
-   ![Step5](../Roadshow-Caldova/media/amp21.png)
+   ![Step5](../SE-Sandbox-Guide/media/amp21.png)
 
 1. Select **Continue** to **Authorize Visual Studio Code**.
 
-   ![Step6](../Roadshow-Caldova/media/amp22.png)
+   ![Step6](../SE-Sandbox-Guide/media/amp22.png)
 
 1. Select **Authorize Visual Studio Code**.
 
-   ![Step7](../Roadshow-Caldova/media/amp23.png)
+   ![Step7](../SE-Sandbox-Guide/media/amp23.png)
 
 1. Select **Open**.
 
-   ![Step8](../Roadshow-Caldova/media/amp24.png)
+   ![Step8](../SE-Sandbox-Guide/media/amp24.png)
 
 1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
 
-   ![Step9](../Roadshow-Caldova/media/amp25.png)
+   ![Step9](../SE-Sandbox-Guide/media/amp25.png)
 
-   ![Step10](../Roadshow-Caldova/media/amp26.png)
+   ![Step10](../SE-Sandbox-Guide/media/amp26.png)
 
    >**Note:** If you get any error pop up, please **Close.**
 
-    ![Step11](../Roadshow-Caldova/media/b2.png)
+    ![Step11](../SE-Sandbox-Guide/media/b2.png)
 
 
 ### Caldova Deployment Prompts
@@ -86,7 +86,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Select **File (1)** and then **Open Folder (2)**.
 
-   ![Step12](../Roadshow-Caldova/media/amp27.png)
+   ![Step12](../SE-Sandbox-Guide/media/amp27.png)
 
 1. Navigate to **`C:\`** path **(1)**, then select the **miq-project** folder **(2)** and then **Select folder (3)**.
 
@@ -94,31 +94,31 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
-   ![Step16](../Roadshow-Caldova/media/b6.png)
+   ![Step16](../SE-Sandbox-Guide/media/b6.png)
 
 1. Select **Trust Folder and Continue**.
 
-   ![Step17](../Roadshow-Caldova/media/amp30.png)
+   ![Step17](../SE-Sandbox-Guide/media/amp30.png)
 
 1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
 
-   ![Step18](../Roadshow-Caldova/media/b7.png)
+   ![Step18](../SE-Sandbox-Guide/media/b7.png)
 
 1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
 
-   ![Step19](../Roadshow-Caldova/media/b8.png)
+   ![Step19](../SE-Sandbox-Guide/media/b8.png)
 
 1. Select **Enable**.
 
-   ![Step20](../Roadshow-Caldova/media/amp33.png)
+   ![Step20](../SE-Sandbox-Guide/media/amp33.png)
 
 1. Select the **Future-State-Architecture.png**.
 
-   ![Step20](../Roadshow-Caldova/media/cd21.png)
+   ![Step20](../SE-Sandbox-Guide/media/cd21.png)
 
 1. From the **GitHub Copilot Chat**, click on **+ (1)** and then select the **Future-State-Architecture.png (2)**.
 
-   ![](../Images/b89.png)   
+   ![](../SE-Sandbox-Guide/media/b89.png)   
 
 1. Send the prompts below into **GitHub Copilot Chat** along with the attached **Future State Architecture**.
 
@@ -139,17 +139,17 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Note: Ensure the data is properly relational, with a primary key on every table and explicit foreign key relationship, so it can support Fabric mirroring, Fabric Ontology, and Data Agent creation in the future. Also create markdown(.md) files with deployment instructions and post deployment configurations and start deployment.
    ```
 
-   ![prompt1](../Roadshow-Caldova/media/prompt1.png)
+   ![prompt1](../SE-Sandbox-Guide/media/prompt1.png)
 
 1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
 
 1. Navigate to the [Azure portal](https://portal.azure.com). Search for Resource groups in search tab and click on **Resource Groups**
 
-   ![portal](../Roadshow-Caldova/media/portal.png)
+   ![portal](../SE-Sandbox-Guide/media/portal.png)
 
 1. Click on **RG_Caldova_Pharma** Resource Group
     
-   ![rg](../Roadshow-Caldova/media/rg.png)
+   ![rg](../SE-Sandbox-Guide/media/rg.png)
 
 1. Click on Created **SQLDatabase** 
 
@@ -159,7 +159,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. In the Explorer pane, expand Pharma DB, then expand dbo. Select Tables to view the list of tables in the database.
 
-   ![AzureSQLDB](../Roadshow-Caldova/media/AzureSQLDB.png)
+   ![AzureSQLDB](../SE-Sandbox-Guide/media/AzureSQLDB.png)
 
 
 #### **Prompt 2: Fabric IQ**
@@ -199,7 +199,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on **Microsoft Cloud Menu** and select **Fabric**
 
-    ![fabric](../Roadshow-Caldova/media/fabric.png)
+    ![fabric](../SE-Sandbox-Guide/media/fabric.png)
 
 1. It will open Fabric portal in new tab
 
@@ -207,17 +207,17 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Click on **CaldovaLakehouse** 
 
-   ![LH](../Roadshow-Caldova/media/LH.png)
+   ![LH](../SE-Sandbox-Guide/media/LH.png)
 
 1. Select Tables to view the list of tables in the Lakehouse.
 
 1. Then Click on **CaldovaCapacityOntology** and then Select **Product** in the Entity Types and Click on **View Entity Type Details**
 
-   ![ontology](../Roadshow-Caldova/media/ontology.png)
+   ![ontology](../SE-Sandbox-Guide/media/ontology.png)
 
 1. Click on **Overview** to view the graph model.
 
-   ![graphview](../Roadshow-Caldova/media/graphview.png)
+   ![graphview](../SE-Sandbox-Guide/media/graphview.png)
 
 1. Navigate back to workspace and Click on **CaldovaCapacityDataagent**
 
@@ -227,7 +227,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    What CMO capacity offers are currently available?
    ```
 
-   ![caldovaagent1](../Roadshow-Caldova/media/caldovaagent1.png)
+   ![caldovaagent1](../SE-Sandbox-Guide/media/caldovaagent1.png)
 
    ```
    Are there any products where forecasted demand exceeds available production capacity?
@@ -295,7 +295,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, assess all 11 contract manufacturers and weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap.
    ```
 
-   ![foundry1](../Roadshow-Caldova/media/foundry1.png)
+   ![foundry1](../SE-Sandbox-Guide/media/foundry1.png)
 
 
    ```

@@ -31,7 +31,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
    
-   ![](../Roadshow-Caldova/media/amp8.png)
+   ![](../SE-Sandbox-Guide/media/amp8.png)
    
 1. Right click on [Cloud & AI Platform Technical Workshops](https://caip-tech-workshops.azurewebsites.net/), then select **Copy link** and then paste the link on the Web browser.
 
@@ -42,7 +42,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. After the application loads, you will see the workshop site home page as shown below.
 
-   ![Step701](../Roadshow-Caldova/media/cd18.png)
+   ![Step701](../SE-Sandbox-Guide/media/cd18.png)
 
 1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
 
@@ -53,21 +53,21 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    - Under **Scenarios**, select **Agentic App & Databases Modernization (3)**.
    - In the **Technical Workshops** section, expand **Prototype using Cora (4)** and select **Cora (Preview) for Roadshows (5)**.
    
-     ![Step001](../Roadshow-Caldova/media/ampmm1.png)
+     ![Step001](../SE-Sandbox-Guide/media/ampmm1.png)
 
 1. Continue in the Cora Chat pane for Rapid Prototyping.  
 
-   ![Step001](../Roadshow-Caldova/media/cd9.png)
+   ![Step001](../SE-Sandbox-Guide/media/cd9.png)
 
 1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
 
-   ![Step20](../Roadshow-Caldova/media/cd36.png)
+   ![Step20](../SE-Sandbox-Guide/media/cd36.png)
 
 1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
 
 1. Navigate to `C:\miq-project` folder **(1)**, enter the name as **Future State Architecture (2)** and then **Save (3)**.
 
-   ![Step12](../Roadshow-Caldova/media/cd20.png)   
+   ![Step12](../SE-Sandbox-Guide/media/cd20.png)   
 
 1. In Cora chat pane, upload the final `Future State Architecture` screenshot from `C:\miq-project` folder and copy & paste the following statement on Cora. 
 
@@ -75,21 +75,21 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    Explain this Architecture.
    ``` 
 
-   ![Step001](../Roadshow-Caldova/media/cd10.png)   
+   ![Step001](../SE-Sandbox-Guide/media/cd10.png)   
 
 1. Review the Architecture Summary provided by Cora.
 
-   ![Step001](../Roadshow-Caldova/media/cd11.png)   
+   ![Step001](../SE-Sandbox-Guide/media/cd11.png)   
 
 1. **Copy & paste** the following statement on Cora `Generate Synthetic Data`.
 
-   ![Step001](../Roadshow-Caldova/media/cd12.png)  
+   ![Step001](../SE-Sandbox-Guide/media/cd12.png)  
 
     >**Note:** It might take 2-3 minutes to generate the data.
 
 1. Review the tables from the generated data and click on **Download full artifacts.**      
 
-   ![Step001](../Roadshow-Caldova/media/cd13.png)  
+   ![Step001](../SE-Sandbox-Guide/media/cd13.png)  
 
 1. Copy and paste the following prompt on Cora: 
 
@@ -97,21 +97,21 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    Generate the deployment artifacts using this Architecture.
    ```
 
-   ![Step001](../Roadshow-Caldova/media/cd14.png) 
+   ![Step001](../SE-Sandbox-Guide/media/cd14.png) 
 
     >**Note:** It might take 1-2 minutes to generate the Deployment artifacts
 
 1. Review the generated files from the Cora and click on **Download the zip file** using the Download button on top left. 
 
-   ![Step001](../Roadshow-Caldova/media/cd15.png) 
+   ![Step001](../SE-Sandbox-Guide/media/cd15.png) 
 
 1. Save the Downloaded zip file in your preferred location.   
 
-   ![Step001](../Roadshow-Caldova/media/cd16.png)
+   ![Step001](../SE-Sandbox-Guide/media/cd16.png)
 
 1. Click on the prompt `Generate the prototype guide using this context`. It will generate the Exercises in the left. 
 
-   ![Step001](../Roadshow-Caldova/media/cd17.png)
+   ![Step001](../SE-Sandbox-Guide/media/cd17.png)
 
 #### Multi-Agent Solution to Test
 
