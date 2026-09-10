@@ -61,7 +61,7 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
 1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
 
-   ![Step20](../Roadshow-Caldova/media/cd19.png)
+   ![Step20](../Roadshow-Caldova/media/cd36.png)
 
 1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
 
