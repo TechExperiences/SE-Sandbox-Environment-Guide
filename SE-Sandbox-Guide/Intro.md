@@ -9,7 +9,7 @@
 
     >**Note**: If prompted, click on **Accept** to Proceed.
 
-     ![](../Sandbox-Environment-Guides/Images/amp12.png)
+     ![](../SE-Sandbox-Guide/Images/amp12.png)
 
 1. On your Virtual machine, click on the **Azure Portal** icon.
 
