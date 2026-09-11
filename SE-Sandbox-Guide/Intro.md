@@ -9,27 +9,27 @@
 
     >**Note**: If prompted, click on **Accept** to Proceed.
 
-     ![](../SE-Sandbox-Guide/Images/amp12.png)
+     ![](../SE-Sandbox-Guide/media/amp12.png)
 
 1. On your Virtual machine, click on the **Azure Portal** icon.
 
-   ![](../Sandbox-Environment-Guides/Images/amp13.png)
+   ![](../SE-Sandbox-Guide/media/amp13.png)
 
 1. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-     ![](../Sandbox-Environment-Guides/Images/amp15.png)
+     ![](../SE-Sandbox-Guide/media/amp15.png)
 
 1. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-     ![](../Sandbox-Environment-Guides/Images/amp16.png)
+     ![](../SE-Sandbox-Guide/media/amp16.png)
 
 1. If a pop-up appears **Stay signed in**, then select **Yes**.
 
-   ![](../Sandbox-Environment-Guides/Images/amp17.png)
+   ![](../SE-Sandbox-Guide/media/amp17.png)
 
 1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
