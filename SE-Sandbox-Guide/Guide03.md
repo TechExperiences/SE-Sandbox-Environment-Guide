@@ -302,7 +302,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![ontology](../SE-Sandbox-Guide/media/se24.png)
 
-1. Navigate to Test data agent, send the following prompts in Data agent input box 
+1. Navigate to Test data agent, send the following prompts in Data agent input box. 
 
    ```
    What CMO capacity offers are currently available?
@@ -327,6 +327,10 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
     >**Note:** You can also paste the screenshot in the Copilot Chat.
 
 1. Click on **Publish** to publish the DataAgent.
+
+   ![ontology](../SE-Sandbox-Guide/media/se25.png)
+
+1. Select **Publish** again.   
 
 #### **Prompt 3: Foundry IQ**
 
