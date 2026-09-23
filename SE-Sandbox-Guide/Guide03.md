@@ -308,7 +308,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    What CMO capacity offers are currently available?
    ```
 
-   ![caldovaagent1](../SE-Sandbox-Guide/media/caldovaagent1.png)
+   ![caldovaagent1](../SE-Sandbox-Guide/media/se28.png)
 
    ```
    Are there any products where forecasted demand exceeds available production capacity?
