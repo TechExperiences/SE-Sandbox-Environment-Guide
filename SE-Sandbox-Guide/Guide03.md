@@ -88,9 +88,9 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![Step12](../SE-Sandbox-Guide/media/amp27.png)
 
-1. Navigate to **`C:\`** path **(1)**, then select the **miq-project** folder **(2)** and then **Select folder (3)**.
+1. Navigate to **`C:\miq-project`** path **(1)** and then **Select folder (2)**.
 
-   ![](../Images/b56.png)
+   ![](../SE-Sandbox-Guide/media/se1.png)
 
 1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
@@ -123,23 +123,52 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 1. Send the prompts below into **GitHub Copilot Chat** along with the attached **Future State Architecture**.
 
    ```
-   You are my smart agent. Review the problem statement and planned solution architecture design below to help Caldova overcome its challenges. Then prepare Bicep/ARM templates and deploy the resources in the respective environment.
-   Problem Statement
-   Caldova is accelerating the launch of its next-generation pharma product ahead of a competitor, requiring supply chain, manufacturing, procurement, data, application, and compliance teams to work from a single trusted context.
-   With a 7% capacity gap across three manufacturing plants, Caldova must determine whether the gap can be closed internally or through pre-qualified contract manufacturers within 3-6 months, while leveraging a multi-agent AI solution powered by Microsoft IQ capabilities to provide the COO with trusted recommendations and enable timely action on critical operational issues.
-   Planned Solution Architecture Design:Attached Caldova-architecture.png.
+   You are my smart agent. Please migrate OnPrem SQL database to Azure SQL database. Please follow the below steps.
+   Planned Solution Architecture Design:Attached Future-State-Archirecture.png.
    Scope:
    First, build the **"1-Modernize with Confidence"** section from the planned solution architecture design using **Azure SQL Database**.
    Instructions:
    1. Create a new Resource Group naming as "RG_Caldova_Pharma" in Azure in the region of "West US3" and proceed further.
    2. Create an Azure SQL server and one Azure SQL Database on that server, as shown in the architecture diagram (Business Critical tier, TDE enabled).
    3. Enable the system-assigned managed identity on the logical server and allow Azure services and resources to access the server. This is required for Fabric mirroring in the next phase.
-   4. Generate sample data files based on the problem statement: a 7% capacity gap across three manufacturing plants.
-   5. Create tables for the sample data in the Azure SQL Database.
+   4. Connect to the virtual machine named vm-onprem-sql (Public IP: 172.172.65.25) using credentials (User name: azureuser, password: Password@123) . 
+   5. Connect and Access the OnPrem SQL Sever using credentials
+      - User Name: sqladmin
+      - Password: admin@12345
+   6. Access database "CaldovaPharma" in this OnPrem server.
+   7. Migrate Tables and data into the created Azure SQL Database
+   8. Please grant set as admin access to the UPN: <inject key="AzureAdUserEmail"></inject> in the above Azure SQL Server
+
    Note: Ensure the data is properly relational, with a primary key on every table and explicit foreign key relationship, so it can support Fabric mirroring, Fabric Ontology, and Data Agent creation in the future. Also create markdown(.md) files with deployment instructions and post deployment configurations and start deployment.
    ```
 
-   ![prompt1](../SE-Sandbox-Guide/media/prompt1.png)
+    ![prompt1](../SE-Sandbox-Guide/media/se2.png)
+
+1. Once the deployment starts, you may be prompted to log in. Click the **Login link (1)** and copy the device code **(2)**.
+
+   ![portal](../SE-Sandbox-Guide/media/se3.png)
+
+1. Paste the copied Code **(1)** and then **Next (2)**.
+
+   ![portal](../SE-Sandbox-Guide/media/se4.png)
+
+1. Select the Username **<inject key="AzureAdUserEmail"></inject>**.
+
+   ![portal](../SE-Sandbox-Guide/media/se5.png)
+
+1. Select **Continue**.
+
+   ![portal](../SE-Sandbox-Guide/media/se6.png)
+
+1. Once the Sign in is completed, go back to the **Visual Studio Code.**
+
+   ![portal](../SE-Sandbox-Guide/media/se7.png)
+
+1. Post completion of the login, Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress.   
+
+1. The deployment may take around 5–10 minutes, and in some cases, it may take longer to complete. Once the deployment is completed, you may see a response similar to the one shown below. Click **Keep** to retain the files.
+
+   ![portal](../SE-Sandbox-Guide/media/se9.png)
 
 1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
 
