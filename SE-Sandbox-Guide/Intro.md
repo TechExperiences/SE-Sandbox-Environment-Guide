@@ -1,4 +1,4 @@
-# 	CAIP Technical Workshops for SE
+# 	Sandbox Environment for SE
 
 ### Overview about the Workshop
 
