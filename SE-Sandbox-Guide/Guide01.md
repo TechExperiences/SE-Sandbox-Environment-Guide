@@ -27,21 +27,21 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Go to the Technical Workshop site at https://aka.ms/CAIPTechWorkshops.
 
-1. Navigate to the **Modernize with Confidence** section on the left navigation pane.
+1. Select **Modernize with Confidence** Conversation.
 
-   ![Step701](../SE-Sandbox-Guide/media/cd2.png)
+   ![Step701](../SE-Sandbox-Guide/media/se26.png)
 
-1. Select **Modernize faster with Agentic AI (1)**,  
+1. Expand **Modernize faster with Agentic AI (1)**,  
 
    - Then select **Agentic App and Databases Modernization (2)**  
 
-   - Select the **Rapid Prototyping Assets (3)** 
+   - Under the **Rapid Prototyping Assets** 
 
-   - Select **Prototype using Cora (4)**  
+   - Select **Prototype using Cora (3)**  
 
-   - Select **Cora (Preview) for Roadshows (5)**
+   - Select **Cora (Preview) for Roadshows (4)**
 
-     ![Step701](../SE-Sandbox-Guide/media/cd3.png)   
+     ![Step701](../SE-Sandbox-Guide/media/se27.png)   
 
 1. In Cora chat pane, copy and paste the following business problem statement to Cora. 
 
@@ -57,7 +57,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
    - **Click** to proceed. 
 
-     ![Step701](../SE-Sandbox-Guide/media/cd4.png)   
+     ![Step701](../SE-Sandbox-Guide/media/se32.png)   
 
 1. Review the recommended architecture and open the linked Whiteboard.
 

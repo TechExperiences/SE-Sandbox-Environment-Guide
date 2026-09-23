@@ -44,16 +44,17 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
 
    ![Step701](../SE-Sandbox-Guide/media/cd18.png)
 
-1. Select the **Modernize with confidence** drop-down menu to explore the available outcomes and workshop scenarios.
+1. Select the **Modernize with confidence** to explore the available outcomes and workshop scenarios.
+
+   ![Step701](../SE-Sandbox-Guide/media/se26.png)
 
 1. On the right side of the page, you'll find **Cora**, the AI-Powered Rapid Prototyping Copilot. Use the chat interface to enter prompts and interact with the workshop outcomes and scenarios as follows:
 
-   - From the left navigation pane, expand **Modernize with Confidence (1)**.
-   - Under **Outcomes**, select **Modernize Faster with Agentic AI (2)**.
-   - Under **Scenarios**, select **Agentic App & Databases Modernization (3)**.
-   - In the **Technical Workshops** section, expand **Prototype using Cora (4)** and select **Cora (Preview) for Roadshows (5)**.
+   - From the left navigation pane, under **Outcomes**, select **Modernize Faster with Agentic AI (1)**.
+   - Under **Scenarios**, select **Agentic App & Databases Modernization (2)**.
+   - In the **Technical Workshops** section, expand **Prototype using Cora (3)** and select **Cora (Preview) for Roadshows (4)**.
    
-     ![Step001](../SE-Sandbox-Guide/media/ampmm1.png)
+     ![Step001](../SE-Sandbox-Guide/media/se27.png)
 
 1. Continue in the Cora Chat pane for Rapid Prototyping.  
 
