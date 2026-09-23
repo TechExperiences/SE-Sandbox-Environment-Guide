@@ -336,9 +336,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 **Step 3:** 
 
-1. Navigate back to the GitHub Copilot Chat to deploy the Foundry resources.
-
-1. Navigate back to the GitHub Copilot Chat
+1. Navigate back to the **GitHub Copilot Chat** to deploy the Foundry resources.
 
 1. Copy the below prompt into the chat and send.
 
@@ -370,17 +368,23 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    >Not able to see agent, please refresh and load it.
 
-1. Once deployment is completed, please navigate to Azure portal
+1. Once deployment is completed, please navigate to **Azure portal**.
 
-1. Click on **RG_Caldova_Pharma** Resource Group
+1. Navigate to **RG_Caldova_Pharma** Resource Group.
 
-1. Select Foundry Project
+1. Select **Foundry Project**.
 
-1. Click On **Go to Foundry portal**
+   ![ontology](../SE-Sandbox-Guide/media/se33.png)
 
-1. Click on Build
+1. Click On **Go to Foundry portal**.
 
-1. Navigate to Agents and click on the **Capacity-Planning-Foundry-Agent**
+   ![ontology](../SE-Sandbox-Guide/media/se34.png)
+
+1. Click on **Build.**
+
+1. Navigate to **Agents (1)** and click on the **Capacity-Planning-Foundry-Agent (2)**.
+
+   ![ontology](../SE-Sandbox-Guide/media/se35.png)
 
 1. Copy the below prompts and paste it in the agent chat window 
 
