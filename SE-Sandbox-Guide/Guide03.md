@@ -236,31 +236,71 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress. If prompted with any questions, provide the appropriate responses accordingly.
 
-1. Once deployment is completed, please navigate to Azure portal.
+1. In between, if it asks you to **Continue to iterate**, please click **Continue**.
+
+   ![portal](../SE-Sandbox-Guide/media/se15.png)
+
+1. The deployment may take around `40-50` minutes, monitor the process closely. Once the deployment is completed, you may see a response similar to the one shown below. Click **Keep** to retain the files.
+
+   ![portal](../SE-Sandbox-Guide/media/se16.png)
+
+1. Once deployment is completed, please navigate back to **Azure Portal**.
 
 1. Click on the **App launcher (1)** and select Microsoft **fabric** icon **(2)**.
 
     ![fabric](../SE-Sandbox-Guide/media/fabric.png)
 
-1. It will open Fabric portal in new tab.
+1. It will open **Fabric Portal** in new tab.
 
-1. Click on **workspaces** and select **Caldova Pharma Fabric IQ** workspace .
+1. Click **Workspaces (1)** and select the workspace with a name similar to **Caldova Pharma Fabric (2)**.
 
-1. Click on **CaldovaLakehouse** 
+   ![LH](../SE-Sandbox-Guide/media/se17.png)
 
-   ![LH](../SE-Sandbox-Guide/media/LH.png)
+1. View the Items created in the Fabric Workspace.
+
+   ![LH](../SE-Sandbox-Guide/media/se18.png)
+
+1. Click on **CaldovaPharma_Lakehouse** 
+
+   ![LH](../SE-Sandbox-Guide/media/se19.png)
 
 1. Select Tables to view the list of tables in the Lakehouse.
 
-1. Then Click on **CaldovaCapacityOntology** and then Select **Product** in the Entity Types and Click on **View Entity Type Details**
+   ![LH](../SE-Sandbox-Guide/media/se20.png)
 
-   ![ontology](../SE-Sandbox-Guide/media/ontology.png)
+1. Make sure the tables are loaded properly.
+
+   - If the Tables are not loaded properly, then go back to the **GitHub Copilot Chat** and then send the follow up prompt as below.
+
+      ```
+      Please follow the below instructions:
+      1. Lakehouse tables are not loaded properly. Please load it again from Azure SQL Database using mirroring and mirroring DB.
+      2. Once Lakehouse table loaded, please build ontology pointing to Lakehouse tables and create Ontology graph and proper entity relationship.
+      3. Create Fabric Data Agent point to above Fabric Ontology.
+      4.Validate all 3 and confirm once all are up and running.
+      ```
+
+      - Once the deployment is completed, go back to the lakehouse and verfify the tables.
+
+1. Navigate back to the Workspace, then Click on **CaldovaPharma_Ontology**.
+
+   ![ontology](../SE-Sandbox-Guide/media/se21.png)
+
+1. Then Select **CMOCapacity (1)** in the Entity Types and Click on **View Entity Type Details (2)**.
+
+   ![ontology](../SE-Sandbox-Guide/media/se22.png)
 
 1. Click on **Overview** to view the graph model.
 
    ![graphview](../SE-Sandbox-Guide/media/graphview.png)
 
-1. Navigate back to workspace and Click on **CaldovaCapacityDataagent**
+1. Navigate back to workspace and Click on **CaldovaPharma_Dataagent**.
+
+   ![ontology](../SE-Sandbox-Guide/media/se23.png)
+
+1. Make sure Ontology is added as a data source.
+
+   ![ontology](../SE-Sandbox-Guide/media/se24.png)
 
 1. Navigate to Test data agent, send the following prompts in Data agent input box 
 
@@ -277,6 +317,14 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ```
    Which capacity gaps have been identified, and what actions have been recommended to resolve them?
    ```
+
+1. If the Data agent is not responding, then go back to the **GitHub Copilot Chat**, send the follow up prompt as per your requirement.
+
+   ```
+   Data agent is unable to fetch information from Ontology. Looks like ontology is not yet bulit propely with proper graph model (Entity relationship). Can you please rebuild my ontology with proper Entity relationship and refreh my data agent with pointing Ontology.
+   ```
+
+    >**Note:** You can also paste the screenshot in the Copilot Chat.
 
 1. Click on **Publish** to publish the DataAgent.
 
