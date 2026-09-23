@@ -172,23 +172,27 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
 1. Once the deployment is complete, you can verify the deployed resources by navigating to the newly created resource group.
 
-1. Navigate to the [Azure portal](https://portal.azure.com). Search for Resource groups in search tab and click on **Resource Groups**
+1. Navigate to the [Azure portal](https://portal.azure.com).
+
+1. Search for **Resource groups (1)** in search tab and click on **Resource Groups (2)**.
 
    ![portal](../SE-Sandbox-Guide/media/portal.png)
 
 1. Click on **RG_Caldova_Pharma** Resource Group
     
-   ![rg](../SE-Sandbox-Guide/media/rg.png)
+   ![rg](../SE-Sandbox-Guide/media/se10.png)
 
-1. Click on Created **SQLDatabase** 
+1. Click on created SQLDatabase **CaldovaPharma**.
 
-1. In the left navigation pane, click Query Editor (Preview).
+   ![rg](../SE-Sandbox-Guide/media/se11.png)
 
-1. If prompted to sign in, click Sign in and complete the authentication process.
+1. In the left navigation pane, select **Query Editor (Preview) (1)** and then click on Connect as **odl_user_<inject key="Deployment-ID" enableCopy="false"/> (2)**.
 
-1. In the Explorer pane, expand Pharma DB, then expand dbo. Select Tables to view the list of tables in the database.
+   ![rg](../SE-Sandbox-Guide/media/se12.png)
 
-   ![AzureSQLDB](../SE-Sandbox-Guide/media/AzureSQLDB.png)
+1. In the Explorer pane, expand **CaldovaPharma** DB , then expand **dbo (1)** and then expand **Tables (2)**. Click on the Tables to view the list of tables in the database **(3)**.
+
+   ![AzureSQLDB](../SE-Sandbox-Guide/media/se13.png)
 
 
 #### **Prompt 2: Fabric IQ**
