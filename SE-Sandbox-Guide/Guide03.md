@@ -290,7 +290,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![ontology](../SE-Sandbox-Guide/media/se22.png)
 
-1. Click on **Overview** to view the graph model.
+1. Click on **Overview** to view the graph model. You can see something similar to this.
 
    ![graphview](../SE-Sandbox-Guide/media/graphview.png)
 
