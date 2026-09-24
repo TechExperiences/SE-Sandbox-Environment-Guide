@@ -60,6 +60,18 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
    ![Step001](../SE-Sandbox-Guide/media/se37.png)
 
+1. In Cora chat pane, copy and paste the following business problem statement to Cora. 
+
+   ```
+   My customer Caldova is a pharmaceutical manufacturer who plans to launch their new V2 product. I have three comments 
+
+   1) Caldova’s supply chain planning application runs on legacy .NET, the manufacturing database sits on an on-premises SQL Server. It’s Data remains siloed across IoT, supply chain, customer, production, supplier, and manufacturing systems. Recommend a solution to migrate the on-premises SQL Server to Azure SQL DB. 
+
+   2) Also, Caldova currently can manufacture 100 million units in 6 months. It needs to ensure the ability to manufacture 107 million units in 6 months, a gap of 7% manufacturing capacity. The closure of the 7% capacity gap across three manufacturing plants is needed to support the upcoming V2 product across multiple plants. Caldova needs to understand whether it can close the gap internally, and if not, which pre-qualified contract manufacturing organizations can fast-track support in a 3–6-month window. 
+
+   3) They want an AI-powered multi-agent solution using Microsoft Fabric and Microsoft Foundry to identify internal improvements to their manufacturing plants as well as recommend contract manufacturing orgs to achieve the desired production capacity.
+   ```
+
 1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
 
    ![Step20](../SE-Sandbox-Guide/media/cd36.png)
@@ -94,7 +106,7 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
 1. Review the tables from the generated data and click on **Download full artifacts.**      
 
-   ![Step001](../SE-Sandbox-Guide/media/cd13.png)  
+   ![Step001](../SE-Sandbox-Guide/media/se40.png)  
 
 1. Copy and paste the following prompt on Cora: 
 
@@ -116,7 +128,7 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
 1. Click on the prompt `Generate the prototype guide using this context`. It will generate the Exercises in the left. 
 
-   ![Step001](../SE-Sandbox-Guide/media/cd17.png)
+   ![Step001](../SE-Sandbox-Guide/media/se41.png)
 
 #### Multi-Agent Solution to Test
 
