@@ -1,8 +1,8 @@
-# Option 2: Rapid prototyping with GitHub Copilot
+# Option 2: Rapid Prototyping with GitHub Copilot
 
-Option 2 uses the whiteboarding session to map business challenges to a future-state technical architecture, designs a governed intelligence layer that enables trusted and secure AI agents, and rapidly prototypes deployment assets from the target architecture. GitHub Copilot in VS Code generates the ARM and Bicep templates, synthetic data and the supporting deployment guidance. Use this path to demonstrate how Microsoft Fabric, Fabric IQ, Microsoft Foundry and multi-agent patterns address Caldova's operational challenges and accelerate modernization. 
+Option 2 uses the Whiteboarding session to map business challenges to a future-state technical architecture, designs a governed intelligence layer that enables trusted and secure AI agents, and rapidly prototypes deployment assets from the target architecture. GitHub Copilot in VS Code generates the ARM and Bicep templates, synthetic data and the supporting deployment guidance. Use this path to demonstrate how Microsoft Fabric, Fabric IQ, Microsoft Foundry and multi-agent patterns address Caldova's operational challenges and accelerate modernization. 
 
-### GitHub Copilot Role in the Workshop
+### GitHub Copilot role in the Workshop
 
 Use GitHub Copilot to accelerate the creation, validation, and refinement of deployment assets. Copilot should help participants:
 
@@ -19,15 +19,14 @@ Use GitHub Copilot to accelerate the creation, validation, and refinement of dep
 Follow these steps in VS Code:
 
 1. Open the workshop repository or sandbox folder in VS Code.
-2. Create a folder named `deployment-assets`.
-3. Add the exported future-state architecture image to the folder.
-4. Open GitHub Copilot Chat in VS Code.
-5. Attach or reference the future-state architecture image.
-6. Ask Copilot to analyze the architecture and identify the Azure resources required.
-7. Ask Copilot to generate an ARM or Bicep template based on the architecture.
-8. Ask Copilot to create a parameter file for the sandbox deployment.
-9. Ask Copilot to validate dependencies, naming conventions, and resource group assumptions.
-10. Review the generated files before deployment.
+1. Add the exported future-state architecture image to the folder.
+1. Open GitHub Copilot Chat in VS Code.
+1. Attach or reference the future-state architecture image.
+1. Ask Copilot to analyze the architecture and identify the Azure resources required.
+1. Ask Copilot to generate an ARM or Bicep template based on the architecture.
+1. Ask Copilot to create a parameter file for the sandbox deployment.
+1. Ask Copilot to validate dependencies, naming conventions, and resource group assumptions.
+1. Review the generated files before deployment.
 
 ### GitHub Copilot Setup
 
@@ -361,13 +360,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    Then start deployment.
    ```
 
-
-   ### Supporting Prompt
-
-   If the agent is not visible, use this prompt:
-
-   >Not able to see agent, please refresh and load it.
-
 1. Once deployment is completed, please navigate to **Azure portal**.
 
 1. Navigate to **RG_Caldova_Pharma** Resource Group.
@@ -386,6 +378,12 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![ontology](../SE-Sandbox-Guide/media/se35.png)
 
+   >**Note:** If the agent is not visible, use this prompt, go back to the GitHub Copilot Chat and send the following promot.
+
+   ```
+   Not able to see agent, please refresh and load it.
+   ```
+
 1. Copy the below prompts and paste it in the agent chat window 
 
    ```
@@ -401,3 +399,6 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    
 
    >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
+
+
+### Congratulations, this completes your Rapid Prototyping with GitHub Copilot
