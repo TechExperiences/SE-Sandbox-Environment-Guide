@@ -38,4 +38,8 @@ Sellers can modify or customize the data, instructions, and prompts based on the
 1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
 
-### Now, click on **`Next >>`** to continue with **`Envisioning Session Using Whiteboarding`**.
+### Now, click on Next >> to continue and experience the following sessions:
+
+- Envisioning Session Using Whiteboarding
+- Rapid Prototyping Using Cora
+- Rapid Prototyping Using GitHub Copilot
