@@ -61,7 +61,7 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Open a new browser tab in the Edge browser.
 
-1. Right click on the following Whiteboard template link -  ["Whiteboard Template"](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQDjAP_UUzXQT7dQ1CDIZUwmAcmdBbqp-G-IFVPb3uBh83Y?e=YtjI75), then select **Copy link** and then paste it on the browser tab.
+1. Right click on the following Whiteboard template link -  [Whiteboard Template](https://sandboxailabs1002-my.sharepoint.com/:wb:/g/personal/amplify_user_sandboxailabs1002_onmicrosoft_com/IQDmGZfZSnMTS6R7xKL3lX-AAWHrYYukSrX7T66i-JYTX7Y?e=QTFZis), then select **Copy link** and then paste it on the browser tab.
 
 1. If prompted, sign in with your ODL user credentials.
 
