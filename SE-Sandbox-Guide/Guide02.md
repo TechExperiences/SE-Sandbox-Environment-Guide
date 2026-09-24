@@ -1,10 +1,10 @@
 # 2. Rapid Prototyping
 
-Rapid prototyping turns the exported whiteboard into deployment assets. The deck offers three options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code, and watch Option 3 demonstrated. 
+Rapid Prototyping turns the exported whiteboard into deployment assets. The deck offers three options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code. 
 
-## Option 1: Rapid prototyping with Cora
+## Option 1: Rapid Prototyping with Cora
 
-Attendees use Cora in the CAIP technical workshop web app. They upload the future state architecture picture together with a natural language prompt explaining the architecture, generate deployment assets from that architecture, download those assets locally, generate synthetic data and generate an execution guide. 
+Attendees use Cora in the CAIP Technical Workshop Web App. They upload the future state architecture picture together with a natural language prompt explaining the architecture, generate deployment assets from that architecture, download those assets locally, generate synthetic data and generate an execution guide. 
 
 In session the flow runs as follows: capture the finished future state whiteboard from the previous step, upload the picture to Cora, or the reference architecture as a backup, prompt Cora to generate sample data, deployment code and an execution guide, then download the code and open it in VS Code to review with GitHub Copilot. Where the exercise goes further, the group chooses the solution accelerator Cora recommends, generates the Bicep template and deployment assets, and validates in VS Code before deploying to the sandbox. 
 
@@ -12,22 +12,22 @@ A worked prompt for testing the multi-agent solution is: Assess the real-time li
 
 The agents attendees should expect to see in the generated solution are an orchestrator or supervisor, current capacity analysis, contract manufacturer analysis, a COO recommender and a compliance guardrail. Ask the room which of those five they would trust with an unreviewed decision. It is the fastest route into the governance conversation. 
 
-Here are the steps you will follow to create a rapid prototype for Caldova.
+Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
-1. Leverage the AI assistant **Cora** in the CAIP technical workshop web app.
+1. Leverage the AI assistant **Cora** in the CAIP Technical Workshop Web App.
 1. Provide the Caldova business problem statement to Cora.
-1. Upload the future-state architecture image created during the whiteboarding exercise.
+1. Upload the future-state architecture image created during the Whiteboarding Exercise.
 1. Ask Cora to explain the architecture and recommend the appropriate solution accelerator.
 1. Choose the appropriate solution accelerator based on Cora's recommendation.
 1. Generate Bicep templates and deployment assets.
 1. Validate the generated assets in VS Code.
-1. Deploy the solution in the sandbox environment.
+1. Deploy the solution in the Sandbox Environment.
 1. Review the deployed environment and confirm that all three Caldova challenges are addressed.
 1. Test the multi-agent solution.
 
 ### Steps: Access the Cloud & AI Platform Technical Workshops web application
 
-### `Steps to navigate to CAIP Tech Workshop Web app.`
+### `Steps to navigate to CAIP Tech Workshop Web App.`
 
 1. Click on the **Microsoft Edge** from the Lab VM desktop.
    
@@ -205,4 +205,4 @@ Assess the real-time line, shift, and batch-schedule data from all three plants 
 
 ## This completes the Rapid Prototyping using Cora.
 
-### Now, click on **`Next >>`** from the lower right corner to move on to **`Rapid Prototyping using GitHub Copilot`**.
+### Now, click on **`Next >>`** from the lower right corner to experience **`Rapid Prototyping using GitHub Copilot`**.

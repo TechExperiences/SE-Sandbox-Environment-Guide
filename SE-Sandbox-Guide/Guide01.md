@@ -6,12 +6,6 @@ The CAIP whiteboard experience is a single site for Solution Engineers, GBBs and
 
 During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
 
-### Workshop Exercise
-
-- **Exercise:** Envisioning Session Using Whiteboarding
-- **Estimated Time:** 150 minutes team exercise + 15 minutes reporting
-- **Team Size:** TBD
-
 ### Strategic Mandate
 
 **Cloud & AI-First Caldova Manufacturing Ops 2027** connects three transformation motions:
@@ -23,7 +17,7 @@ During business and technical envisioning, sellers collaborate with customers an
 | Ubiquitous Innovation | Enable teams to rapidly build and deploy governed multi-agent solutions in Microsoft Foundry. |
 
 
-### The steps attendees follow:
+### The Steps attendees follow:
 
 1. Go to the Technical Workshop site at https://aka.ms/CAIPTechWorkshops.
 
