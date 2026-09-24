@@ -56,9 +56,9 @@ Here are the steps you will follow to create a rapid prototype for Caldova.
    
      ![Step001](../SE-Sandbox-Guide/media/se27.png)
 
-1. Continue in the Cora Chat pane for Rapid Prototyping.  
+1. Continue in the **Cora Chat** pane for **Rapid Prototyping**.  
 
-   ![Step001](../SE-Sandbox-Guide/media/cd9.png)
+   ![Step001](../SE-Sandbox-Guide/media/se37.png)
 
 1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
 
