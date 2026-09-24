@@ -38,7 +38,7 @@ Sellers can modify or customize the data, instructions, and prompts based on the
 1. You will return to this portal in the upcoming steps. Keep the portal open and proceed with the next steps.
 
 
-### Now, click on Next >> to continue and experience the following sessions:
+### Now, click on `Next >>` to continue and experience the following sessions:
 
 - Envisioning Session Using Whiteboarding
 - Rapid Prototyping Using Cora
