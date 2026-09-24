@@ -82,7 +82,11 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
    ![Step001](../SE-Sandbox-Guide/media/cd11.png)   
 
-1. **Copy & paste** the following statement on Cora `Generate Synthetic Data`.
+1. **Copy & paste** the following statement on Cora.
+
+   ```
+   Generate Synthetic Data
+   ```
 
    ![Step001](../SE-Sandbox-Guide/media/cd12.png)  
 
@@ -116,7 +120,7 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
 #### Multi-Agent Solution to Test
 
-The rapid prototype should include the following agents:
+The Rapid Prototype should include the following agents:
 
 - Orchestrator / Supervisor
 - Current capacity analysis agent
