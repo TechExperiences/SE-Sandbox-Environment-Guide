@@ -106,9 +106,9 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 
     >**Note:** It might take 1-2 minutes to generate the Deployment artifacts
 
-1. Review the generated files from the Cora and click on **Download the zip file** using the Download button on top left. 
+1. Review the generated files from the Cora and click on **Download** to download the zip file on top left. 
 
-   ![Step001](../SE-Sandbox-Guide/media/cd15.png) 
+   ![Step001](../SE-Sandbox-Guide/media/se39.png) 
 
 1. Save the Downloaded zip file in your preferred location.   
 
