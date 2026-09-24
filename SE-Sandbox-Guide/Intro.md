@@ -1,6 +1,10 @@
 # 	Sandbox Environment for SE
 
-### Overview about the Workshop
+### Note:
+
+This Sandbox environment contains sample data, instructions, and prompts based on the Caldova scenario.
+
+Sellers can modify or customize the data, instructions, and prompts based on their specific customer scenarios and requirements.
 
 ## Accessing your Sandbox Environment
 
