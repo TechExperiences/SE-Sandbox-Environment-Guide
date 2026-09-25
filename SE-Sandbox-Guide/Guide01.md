@@ -1,4 +1,4 @@
-# 1. Envisioning Session Using Whiteboarding to Solve Caldova Business Problem
+# 1. Envisioning and Whiteboarding Session
 
 ## What the Whiteboarding Experience is?
 
