@@ -72,17 +72,11 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
    3) They want an AI-powered multi-agent solution using Microsoft Fabric and Microsoft Foundry to identify internal improvements to their manufacturing plants as well as recommend contract manufacturing orgs to achieve the desired production capacity.
    ```
 
-1. Right click on the [Future-State-Architecture](https://sttechexpcommondata01.blob.core.windows.net/caldova-challenge/Future-State-Architecture.png), then select **Copy link** and then paste it on the new browser tab inside the VM.
+1. From the Cora chat, select the Attach file **(1)** icon, then navigate to `C:\miq-project` folder **(2)**, select the name as **Future-State-Architecture (3)** and then **Open (4)**.
 
-   ![Step20](../SE-Sandbox-Guide/media/cd36.png)
+   ![Step12](../SE-Sandbox-Guide/media/se38.png) 
 
-1. Once the **Future State Architecture** is shown up, click on **Ctrl+S** to save the Architecture.
-
-1. Navigate to `C:\miq-project` folder **(1)**, enter the name as **Future State Architecture (2)** and then **Save (3)**.
-
-   ![Step12](../SE-Sandbox-Guide/media/cd20.png)   
-
-1. In Cora chat pane, upload the final `Future State Architecture` screenshot from `C:\miq-project` folder and copy & paste the following statement on Cora. 
+1. Along with the final `Future State Architecture` screenshot from `C:\miq-project` folder and copy & paste the following statement on Cora. 
 
    ```
    Explain this Architecture.
