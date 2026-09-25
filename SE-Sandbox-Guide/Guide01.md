@@ -21,6 +21,12 @@ During business and technical envisioning, sellers collaborate with customers an
 
 1. Go to the Technical Workshop site at https://aka.ms/CAIPTechWorkshops.
 
+1. If you recieve any **Permission requested** pop up, click on **Accept**.
+
+1. Select **Get Started**.
+
+   ![Step701](../SE-Sandbox-Guide/media/se42.png)
+
 1. Select **Modernize with Confidence** Conversation.
 
    ![Step701](../SE-Sandbox-Guide/media/se26.png)
