@@ -163,6 +163,10 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
    ![portal](../SE-Sandbox-Guide/media/se7.png)
 
+1. Select **Done, signed in**.   
+
+   ![portal](../SE-Sandbox-Guide/media/se44.png)
+
 1. Post completion of the login, Copilot starts generating the response, monitor the process closely. Do not take any action; simply watch the progress.   
 
 1. In between, if it asks you to **Continue to iterate**, please click **Continue**.
