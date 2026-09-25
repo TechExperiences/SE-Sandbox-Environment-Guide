@@ -22,8 +22,8 @@ Here are the steps you will follow to create a Rapid Prototype for Caldova.
 1. Generate Bicep templates and deployment assets.
 1. Validate the generated assets in VS Code.
 1. Deploy the solution in the Sandbox Environment.
-1. Review the deployed environment and confirm that all three Caldova challenges are addressed.
-1. Test the multi-agent solution.
+1. Review the deployed environment and confirm that all three challenges are addressed.
+
 
 ### Steps: Access the Cloud & AI Platform Technical Workshops web application
 
