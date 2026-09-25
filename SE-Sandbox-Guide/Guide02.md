@@ -1,6 +1,6 @@
 # 2. Rapid Prototyping
 
-Rapid Prototyping turns the exported whiteboard into deployment assets. The deck offers three options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code. 
+Rapid Prototyping turns the exported whiteboard into deployment assets. The deck offers two options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code. 
 
 ## Option 1: Rapid Prototyping with Cora
 
