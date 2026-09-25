@@ -75,6 +75,10 @@ During business and technical envisioning, sellers collaborate with customers an
 
     ![Step701](../SE-Sandbox-Guide/media/amp71.png)
 
+1. Click on **X** to close the pop up.
+
+    ![Step701](../SE-Sandbox-Guide/media/se43.png)
+
 1. Use the **Zoom out** option to view the Whiteboard template clearly.
 
 1. Please follow along as the **Facilitator** guides you through the **Business** and **Technical** Envisioning session. During the session, you will identify key business challenges, define priorities, assess the current environment, and design a Future-state solution architecture.
