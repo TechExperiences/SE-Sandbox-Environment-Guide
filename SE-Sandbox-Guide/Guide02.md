@@ -115,7 +115,7 @@ Use Cora in the CAIP Technical Workshop Web App to transform a future-state arch
 
    ![Step001](../SE-Sandbox-Guide/media/se41.png)
 
-#### Multi-Agent Solution to Test
+### Multi-Agent Solution to Test
 
 The rapid prototype should include the following agents:
 
@@ -125,11 +125,77 @@ The rapid prototype should include the following agents:
 - COO recommender agent
 - Compliance guardrail agent
 
-1. Navigate to your downloaded zip file and extract the folder.
+1. **Navigate to the downloaded ZIP file and extract it.**
 
-1. Navigate to the **VS Code** from Lab VM.
+#### GitHub Copilot Setup
 
-1. Open the Extracted folder.
+You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
+
+1. Click on the **Visual Studio Code** from the VM desktop.
+
+   ![Step1](../SE-Sandbox-Guide/media/amp14.png)
+
+1. Click on **Continue with GitHub** to sign in to GitHub Copilot.
+
+   ![Step2](../SE-Sandbox-Guide/media/amp18.png)
+
+1. On the **Sign in to GitHub** tab, enter the provided **GitHub username** **(1)** in the input field, and click on **Sign in with your identity provider** to continue **(2)**.
+
+   - **Username:** <inject key="GitHub User Name" enableCopy="true"/>
+
+     ![Step3](../SE-Sandbox-Guide/media/amp19.png)
+
+1. Click on **Continue** on the **Single sign-on to CloudLabs Organizations** page to proceed.
+
+   ![Step4](../SE-Sandbox-Guide/media/amp20.png)
+
+1. Click on **Accept**.
+
+   ![Step5](../SE-Sandbox-Guide/media/amp21.png)
+
+1. Select **Continue** to **Authorize Visual Studio Code**.
+
+   ![Step6](../SE-Sandbox-Guide/media/amp22.png)
+
+1. Select **Authorize Visual Studio Code**.
+
+   ![Step7](../SE-Sandbox-Guide/media/amp23.png)
+
+1. Select **Open**.
+
+   ![Step8](../SE-Sandbox-Guide/media/amp24.png)
+
+1. Once the Visual Studio code opens, choose the theme of your wish **(1)** and then click **Get Started (2)**.
+
+   ![Step9](../SE-Sandbox-Guide/media/amp25.png)
+
+   ![Step10](../SE-Sandbox-Guide/media/amp26.png)
+
+   >**Note:** If you get any error pop up, please **Close.**
+
+    ![Step11](../SE-Sandbox-Guide/media/b2.png)
+
+1. In VS Code, open the extracted folder.
+
+1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
+
+   ![Step16](../SE-Sandbox-Guide/media/b6.png)
+
+1. Select **Trust Folder and Continue**.
+
+   ![Step17](../SE-Sandbox-Guide/media/amp30.png)
+
+1. Click **Auto (1)** and then set the model to **Claude Sonnet 5 (2)**.
+
+   ![Step18](../SE-Sandbox-Guide/media/b7.png)
+
+1. Click on **Default permission (1)** and then set it to **Allow all (2)**.
+
+   ![Step19](../SE-Sandbox-Guide/media/b8.png)
+
+1. Select **Enable**.
+
+   ![Step20](../SE-Sandbox-Guide/media/amp33.png)
 
 1. Send the below prompt in the GitHub Copilot Chat.
 

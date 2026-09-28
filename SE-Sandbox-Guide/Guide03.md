@@ -25,6 +25,9 @@ Use GitHub Copilot in VS Code to generate ARM/Bicep templates, synthetic data, a
 
 You will use GitHub Copilot to generate ARM or Bicep templates from the provided natural language business use case/scenario.
 
+>**Note:** You can skip the **GitHub Copilot Setup** steps **1–9** if you have already completed them in the previous step.
+
+
 1. Click on the **Visual Studio Code** from the VM desktop.
 
    ![Step1](../SE-Sandbox-Guide/media/amp14.png)
@@ -70,7 +73,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
     ![Step11](../SE-Sandbox-Guide/media/b2.png)
 
 
-### Caldova Deployment Prompts
+### Deployment Prompts
 
 #### **Prompt 1: Azure SQL Database**
 
