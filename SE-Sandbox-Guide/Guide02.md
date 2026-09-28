@@ -1,28 +1,19 @@
 # 2. Rapid Prototyping
 
-Rapid Prototyping turns the exported whiteboard into deployment assets. The deck offers two options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code. 
+Rapid Prototyping turns your exported whiteboard into deployment assets. The deck offers two options. Groups run Option 1, may use Option 2 if they prefer to work in VS Code.
 
 ## Option 1: Rapid Prototyping with Cora
 
-Attendees use Cora in the CAIP Technical Workshop Web App. They upload the future state architecture picture together with a natural language prompt explaining the architecture, generate deployment assets from that architecture, download those assets locally, generate synthetic data and generate an execution guide. 
+Use Cora in the CAIP Technical Workshop Web App to transform a future-state architecture into a working solution prototype — generating the solution accelerator recommendation, Bicep templates, deployment assets, synthetic data, and execution guidance. This is useful for demonstrating how the proposed architecture can be quickly translated into a deployable Sandbox environment.
 
-In session the flow runs as follows: capture the finished future state whiteboard from the previous step, upload the picture to Cora, or the reference architecture as a backup, prompt Cora to generate sample data, deployment code and an execution guide, then download the code and open it in VS Code to review with GitHub Copilot. Where the exercise goes further, the group chooses the solution accelerator Cora recommends, generates the Bicep template and deployment assets, and validates in VS Code before deploying to the sandbox. 
+### How to use it:
 
-A worked prompt for testing the multi-agent solution is: Assess the real-time line, shift, and batch-schedule data from all three plants to recommend 7% capacity gap closure. If the entire gap cannot be closed internally, please assess all 11 contract manufacturers to weigh their qualification status, GMP compliance history, available capacity, tech-transfer time, and cost to fully close the 7% capacity gap. 
-
-The agents attendees should expect to see in the generated solution are an orchestrator or supervisor, current capacity analysis, contract manufacturer analysis, a COO recommender and a compliance guardrail. Ask the room which of those five they would trust with an unreviewed decision. It is the fastest route into the governance conversation. 
-
-Here are the steps you will follow to create a Rapid Prototype for Caldova.
-
-1. Leverage the AI assistant **Cora** in the CAIP Technical Workshop Web App.
-1. Provide the Caldova business problem statement to Cora.
-1. Upload the future-state architecture image created during the Whiteboarding Exercise.
-1. Ask Cora to explain the architecture and recommend the appropriate solution accelerator.
-1. Choose the appropriate solution accelerator based on Cora's recommendation.
-1. Generate Bicep templates and deployment assets.
-1. Validate the generated assets in VS Code.
-1. Deploy the solution in the Sandbox Environment.
-1. Review the deployed environment and confirm that all three challenges are addressed.
+1. In the CAIP Technical Workshop Web App, upload your future-state architecture image (or the reference architecture as a backup) to Cora, with a natural-language prompt describing it.
+1. Ask Cora to explain the architecture and recommend a solution accelerator.
+1. Generate the Bicep template, deployment assets, synthetic data, and an execution guide.
+1. Download the assets and open them in VS Code to review with GitHub Copilot.
+1. Validate the assets, then deploy to the sandbox.
+1. Review the deployed environment and confirm your business challenges are addressed.
 
 
 ### Steps: Access the Cloud & AI Platform Technical Workshops web application

@@ -2,9 +2,17 @@
 
 ## What the Whiteboarding Experience is?
 
-The CAIP whiteboard experience is a single site for Solution Engineers, GBBs and Specialists, carrying Microsoft Whiteboard templates for the top CAIP reference architectures across three solution plays. The templates are customer-facing and curated from GBBs, Engineering, the Gold Standard Accelerators team, the Azure Architecture site, SEs and partners. 
+Use the CAIP Whiteboard site (aka.ms/CAIPWhiteboards) to get ready-to-use Microsoft Whiteboard templates for the top CAIP reference architectures.
 
-During business and technical envisioning, sellers collaborate with customers and partners to design tailored architectures for a specific scenario, then export those architectures and use Whiteboard Copilot or VS Code to create deployable ARM and Bicep templates for rapid pilots and proofs of concept. The templates live at aka.ms/CAIPWhiteboards, the DREAM templates experience at aka.ms/dreamwhiteboards, and the Seismic business and technical envisioning page carries the reference guide. 
+### How to use it:
+
+1. During envisioning, pull the relevant template from aka.ms/CAIPWhiteboards and collaborate live with your customer to tailor the architecture to their scenario.
+
+1. Export the finished whiteboard.
+
+1. Use Whiteboard Copilot or VS Code to convert it into deployable ARM/Bicep templates for rapid pilots or POCs.
+
+`Need the full reference guide?` **See the Seismic business and technical envisioning page.**
 
 ### Strategic Mandate
 
