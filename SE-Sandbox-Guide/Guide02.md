@@ -175,7 +175,7 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
 
     ![Step11](../SE-Sandbox-Guide/media/b2.png)
 
-1. In VS Code, open the extracted folder.
+1. In VS Code, open the **extracted folder**.
 
 1. From the **GitHub Copilot** Chat, select **Models (1)** and then select **Trust Workspace to enable models (2)**.
 
