@@ -115,6 +115,96 @@ Use Cora in the CAIP Technical Workshop Web App to transform a future-state arch
 
    ![Step001](../SE-Sandbox-Guide/media/se41.png)
 
+#### Multi-Agent Solution to Test
+
+The rapid prototype should include the following agents:
+
+- Orchestrator / Supervisor
+- Current capacity analysis agent
+- Contract manufacturer analysis agent
+- COO recommender agent
+- Compliance guardrail agent
+
+1. Navigate to your downloaded zip file and extract the folder.
+
+1. Navigate to the **VS Code** from Lab VM.
+
+1. Open the Extracted folder.
+
+1. Send the below prompt in the GitHub Copilot Chat.
+
+### Deployment Prompt
+
+```
+You are an Azure Cloud Architect and DevOps Engineer.
+
+I have all solution artifacts in this repository. Analyze the repository and deploy the complete solution into my Azure tenant.
+
+Tasks:
+
+1. Review all artifacts and identify:
+   - Infrastructure as Code (Bicep, ARM, Terraform)
+   - Application code
+   - Azure resources required
+   - Configuration files
+   - Deployment dependencies
+
+2. Create a deployment plan before executing:
+   - Resource Groups
+   - Networking
+   - Storage Accounts
+   - Key Vaults
+   - Microsoft Fabric integrations
+   - Microsoft Foundry
+   - Azure OpenAI
+   - Azure Functions
+   - App Services
+   - SQL Databases
+   - Any other required resources
+
+3. Validate:
+   - Resource naming conventions
+   - RBAC permissions
+   - Managed identities
+   - Environment variables
+   - Secrets and Key Vault references
+   - Cost estimates
+   - Azure Policy compliance
+
+4. Generate:
+   - deployment.md
+   - architecture.md
+   - deploy.sh
+   - deploy.ps1
+   - GitHub Actions workflow
+
+5. Deploy the solution to Azure using best practices:
+   - Create resource group if it does not exist
+   - Provision infrastructure
+   - Configure networking and security
+   - Deploy applications
+   - Configure monitoring and logging
+   - Validate deployment health
+
+6. After deployment provide:
+   - Deployed resource inventory
+   - Resource IDs
+   - URLs and endpoints
+   - Validation results
+   - Any deployment issues and resolutions
+
+Azure Details:
+- Tenant ID: <inject key="TenantID" enableCopy="true"/>
+- Subscription ID: <inject key="SubscriptionID" enableCopy="true"/>
+- Resource Group: rg-cora
+- Region: westus2
+
+Do not make assumptions.
+Ask for missing information.
+Use Azure CLI and Bicep wherever possible.
+Follow Microsoft Well-Architected Framework and security best practices.
+```
+
 
 ## This completes the Rapid Prototyping using Cora.
 
