@@ -396,8 +396,8 @@ You will use GitHub Copilot to generate ARM or Bicep templates from the provided
    ```
    Evaluate the impact of a 10% increase in forecasted demand across the product portfolio on current plant and production-line capacity. Identify the products and production lines that would create the largest capacity gaps, quantify the gap for each product and plant, and determine whether each gap can be absorbed using available internal capacity or requires additional CMO capacity. Present the results visually, including a ranked view of the largest capacity gaps, a comparison of demand versus available capacity by plant, and a clear breakdown of internal versus CMO capacity required. Highlight the highest-priority gaps and provide recommended actions for each
    ```
+   >**Note:** If you encounter any errors, inform **GitHub Copilot Chat** about the error and ask it to fix the issue.   
    
-
    >**Note:** Treat generated templates as a rapid prototype starting point. Teams must validate resource availability, region support, security settings, and workshop sandbox constraints before deployment.
 
 
