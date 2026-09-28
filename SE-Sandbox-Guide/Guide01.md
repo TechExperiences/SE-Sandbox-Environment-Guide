@@ -89,8 +89,6 @@ Use the CAIP Whiteboard site (aka.ms/CAIPWhiteboards) to get ready-to-use Micros
 
 1. Use the **Zoom out** option to view the Whiteboard template clearly.
 
-1. Please follow along as the **Facilitator** guides you through the **Business** and **Technical** Envisioning session. During the session, you will identify key business challenges, define priorities, assess the current environment, and design a Future-state solution architecture.
-
 ### Activities
 
 1. Review the **Business Envisioning Notes** to understand the organization's goals, challenges, and desired outcomes.
